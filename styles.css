@@ -1,0 +1,259 @@
+/* Add Style to index */
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+main{
+  padding: 2rem;
+}
+section{
+  margin-bottom: 2rem;
+}
+
+p{
+  line-height: 1.6;
+}
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+}
+.personal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:linear-gradient(201deg, #292828, #929292);
+  padding: 10px 20px;
+  border-radius: 20px;
+  7px 10px 16px #666671;
+  color: white;
+}
+.personal img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border:2px solid white;
+}
+
+.personal p{
+  margin:10px 20px;
+  text-align: center;
+}
+
+.add{
+  text-align: center;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+.info{
+  text-align: center;
+    margin: 20px 0;
+  background: linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+.ph{
+  text-align: center;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 100%;
+
+}
+.gr{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.career{
+  background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: left;
+  margin: 20px 0; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+.his{
+  background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: center;
+  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+.acc{
+    background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: center;
+  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+.acc ul{
+  list-style: none;     /* remove bullets */
+  padding: 0;
+}
+
+.acc li{
+  background: #ffffff1a;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border-left: 5px solid #00ff88; 
+  transition: 0.3s;
+}
+
+.acc li:hover{
+  transform: translateX(5px);
+  background: rgba(255,255,255,0.2);
+}
+
+.sa{
+  background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: center;
+  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+.sa ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 10px;
+  justify-content: center;
+}
+
+.sa li{
+  background: #222;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 20px;   
+  font-size: 14px;
+  border: 1px solid #555;
+  transition: 0.3s;
+}
+
+.sa li:hover{
+  background: #00ff88;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.edu{
+  background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: center;
+  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+.edu ul{
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+/* vertical line */
+.edu ul::before{
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #00ff88;
+}
+
+.edu li{
+  position: relative;
+  margin: 15px 0;
+  padding: 12px 15px 12px 40px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+/* circle dot */
+.edu li::before{
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  width: 12px;
+  height: 12px;
+  background: #00ff88;
+  border-radius: 50%;
+}
+
+.edu li:hover{
+  background: rgba(255,255,255,0.2);
+  transform: translateX(5px);
+}
+/* Lets edit contact style */
+.contact{
+   background:linear-gradient(135deg, #6e6e6e, #4a4a4a);
+  text-align: center;
+  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+  max-width: 100%
+}
